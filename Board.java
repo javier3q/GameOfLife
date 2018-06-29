@@ -27,8 +27,23 @@ public class Board {
     }
 
     void stateTenLines(){
-        for(int i=30;i<40;i++)
+        for(int i=20;i<40;i++)
             theBoard[i][30]="*";
+
+        for(int j=36;j<63;j++)
+            theBoard[j][35]="*";
+
+        for(int i=20;i<40;i++)
+            theBoard[40][i]="*";
+
+        for(int i=2;i<40;i++){
+            for(int j=40;j>2;j--){
+                theBoard[i][j]="*";
+            }
+        }
+
+        for(int i=50;i<60;i++)
+            theBoard[40][i]="*";
 
     }
 

@@ -97,7 +97,7 @@ public class ViewBoard extends JFrame implements Runnable{
 
                 theBoard.updateBoard();
 
-                Thread.sleep(500);
+                Thread.sleep(200);
             }
 
         } catch (InterruptedException e) {
