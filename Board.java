@@ -18,6 +18,10 @@ public class Board {
         }
     }
 
+    void changeStateOfCell(int i,int j){
+        theBoard[i][j] = theBoard[i][j]==" " ? "*" :" ";
+    }
+
     void inicialStateOne(){
         for(int y=29;y<31;y++){
             for(int x=30;x<40;x++)
